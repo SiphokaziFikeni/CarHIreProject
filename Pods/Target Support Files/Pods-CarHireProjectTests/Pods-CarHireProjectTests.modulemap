@@ -1,0 +1,6 @@
+framework module Pods_CarHireProjectTests {
+  umbrella header "Pods-CarHireProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

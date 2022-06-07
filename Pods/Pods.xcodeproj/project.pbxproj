@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159FCE46648386AD9C5AEEE7EC0EBEB2 /* Pods-CarHireProject-CarHireProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D1C6C3C875E70709F2302A81D5464 /* Pods-CarHireProject-CarHireProjectUITests-dummy.m */; };
+		3612BCEEE177D028C1B79B7336D84DFC /* Pods-CarHireProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E72C1490BC13A696CB43CA2CFF4E69F5 /* Pods-CarHireProjectTests-dummy.m */; };
+		51C58922D595CEFE88B4EB1022C5AADC /* Pods-CarHireProject-CarHireProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA10EFA05CD621997B69FDF331A9D122 /* Pods-CarHireProject-CarHireProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADA1EA680E218E70D074C0D8AC8A6D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		93F295CFE1A745368971DEFF38817E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9733ABD7DDAE9836C5A3BA5633CDE124 /* Pods-CarHireProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0590242662EFB39B98411230020DC8B /* Pods-CarHireProject-dummy.m */; };
+		B38DBF6E08B26A2E3F25811F4B9F9223 /* Pods-CarHireProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C60E869311D237AD443D0620EEE350 /* Pods-CarHireProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F07A7E1D71D68CFF3E4939C748A8EDFF /* Pods-CarHireProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FB76DEF560DAD3B1DD98DFE34E4F30 /* Pods-CarHireProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F117CE11B736DA956FB5C83FC19A5942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5571BEC3BDCB74FAD86B513D3E259AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78E9D2722A069D6FB0AF65D185845FA8;
+			remoteInfo = "Pods-CarHireProject";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F398805F732E41A1629157B1AAADD8 /* Pods-CarHireProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarHireProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		083E5A4D76C5D24750B0A476C6625CBC /* Pods-CarHireProject-CarHireProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarHireProject-CarHireProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B20E0E6726FD182D9B7F380D6BA0D3B /* Pods-CarHireProject-CarHireProjectUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarHireProject-CarHireProjectUITests"; path = Pods_CarHireProject_CarHireProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		138A7550EF8A10AA67A7E28748C9F909 /* Pods-CarHireProject-CarHireProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarHireProject-CarHireProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		337D1C6C3C875E70709F2302A81D5464 /* Pods-CarHireProject-CarHireProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarHireProject-CarHireProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		3EF81837BDED88C3B8576F6C74963D7D /* Pods-CarHireProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarHireProject.debug.xcconfig"; sourceTree = "<group>"; };
+		46AC359FBAF700322DD5F621F3CAB0C9 /* Pods-CarHireProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarHireProjectTests.modulemap"; sourceTree = "<group>"; };
+		554D9256BFF72C3E4317356CA2501526 /* Pods-CarHireProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarHireProject.modulemap"; sourceTree = "<group>"; };
+		56039EED2D54AA6683A8485590C1D227 /* Pods-CarHireProject-CarHireProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarHireProject-CarHireProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64C60E869311D237AD443D0620EEE350 /* Pods-CarHireProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarHireProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		69FC0B97FC3A9864AD3303B0DAEC4BBA /* Pods-CarHireProjectTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarHireProjectTests"; path = Pods_CarHireProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A74F305EE196B5AE4B0F655F5E7E008 /* Pods-CarHireProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarHireProjectTests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B34FD5E4D0C5836BCF0140B9A6D48B5 /* Pods-CarHireProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarHireProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BA129DAE45D173B9BD294E83BAA1E18 /* Pods-CarHireProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarHireProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		9550B57C99666B6BBD2A0F46B9CAEFAC /* Pods-CarHireProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CarHireProject.release.xcconfig"; sourceTree = "<group>"; };
+		963B05AE77F3DBED2DD4CA34CF7A4835 /* Pods-CarHireProject-CarHireProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarHireProject-CarHireProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA10EFA05CD621997B69FDF331A9D122 /* Pods-CarHireProject-CarHireProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarHireProject-CarHireProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		B6AFFC4CEC51A2007A257EB2E7CB077A /* Pods-CarHireProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarHireProject-Info.plist"; sourceTree = "<group>"; };
+		C0590242662EFB39B98411230020DC8B /* Pods-CarHireProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarHireProject-dummy.m"; sourceTree = "<group>"; };
+		C25D58DAB967BCEEB130B6571772932F /* Pods-CarHireProject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CarHireProject"; path = Pods_CarHireProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2625628A835B4AF9E332AD3D5C629A /* Pods-CarHireProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarHireProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFC9CD936725D4AC594E07ED3CA3EB61 /* Pods-CarHireProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CarHireProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1A08E891D0EA3DAB21A4F96E3059A2D /* Pods-CarHireProject-CarHireProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarHireProject-CarHireProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		DED44F28618049AF4E3D67AC34A4F681 /* Pods-CarHireProject-CarHireProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CarHireProject-CarHireProjectUITests.modulemap"; sourceTree = "<group>"; };
+		E72C1490BC13A696CB43CA2CFF4E69F5 /* Pods-CarHireProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CarHireProjectTests-dummy.m"; sourceTree = "<group>"; };
+		F7FB76DEF560DAD3B1DD98DFE34E4F30 /* Pods-CarHireProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CarHireProject-umbrella.h"; sourceTree = "<group>"; };
+		FE5026384A12F27732442195A90D26AA /* Pods-CarHireProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CarHireProject-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21BAF7547BFF34CEAB6C272A66990691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADA1EA680E218E70D074C0D8AC8A6D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26776A1F1F15C63DF8E38D8AC981E819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F295CFE1A745368971DEFF38817E61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8953A83117DA9E3BC0F9ED3AA224CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F117CE11B736DA956FB5C83FC19A5942 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EFD10B14254AD14467BBD70196321C8 /* Pods-CarHireProject-CarHireProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DED44F28618049AF4E3D67AC34A4F681 /* Pods-CarHireProject-CarHireProjectUITests.modulemap */,
+				56039EED2D54AA6683A8485590C1D227 /* Pods-CarHireProject-CarHireProjectUITests-acknowledgements.markdown */,
+				963B05AE77F3DBED2DD4CA34CF7A4835 /* Pods-CarHireProject-CarHireProjectUITests-acknowledgements.plist */,
+				337D1C6C3C875E70709F2302A81D5464 /* Pods-CarHireProject-CarHireProjectUITests-dummy.m */,
+				D1A08E891D0EA3DAB21A4F96E3059A2D /* Pods-CarHireProject-CarHireProjectUITests-Info.plist */,
+				AA10EFA05CD621997B69FDF331A9D122 /* Pods-CarHireProject-CarHireProjectUITests-umbrella.h */,
+				083E5A4D76C5D24750B0A476C6625CBC /* Pods-CarHireProject-CarHireProjectUITests.debug.xcconfig */,
+				138A7550EF8A10AA67A7E28748C9F909 /* Pods-CarHireProject-CarHireProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-CarHireProject-CarHireProjectUITests";
+			path = "Target Support Files/Pods-CarHireProject-CarHireProjectUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		584E0CF39C5FBA7462C01E5F211E41BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F902475990BC69B7941821A569051578 /* Pods-CarHireProject */,
+				1EFD10B14254AD14467BBD70196321C8 /* Pods-CarHireProject-CarHireProjectUITests */,
+				E8643415318DBE0A578AE3C16B156FC1 /* Pods-CarHireProjectTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BF445BB38717F8D7ADE00712626A6025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25D58DAB967BCEEB130B6571772932F /* Pods-CarHireProject */,
+				0B20E0E6726FD182D9B7F380D6BA0D3B /* Pods-CarHireProject-CarHireProjectUITests */,
+				69FC0B97FC3A9864AD3303B0DAEC4BBA /* Pods-CarHireProjectTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BF445BB38717F8D7ADE00712626A6025 /* Products */,
+				584E0CF39C5FBA7462C01E5F211E41BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8643415318DBE0A578AE3C16B156FC1 /* Pods-CarHireProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				46AC359FBAF700322DD5F621F3CAB0C9 /* Pods-CarHireProjectTests.modulemap */,
+				CFC9CD936725D4AC594E07ED3CA3EB61 /* Pods-CarHireProjectTests-acknowledgements.markdown */,
+				06F398805F732E41A1629157B1AAADD8 /* Pods-CarHireProjectTests-acknowledgements.plist */,
+				E72C1490BC13A696CB43CA2CFF4E69F5 /* Pods-CarHireProjectTests-dummy.m */,
+				6A74F305EE196B5AE4B0F655F5E7E008 /* Pods-CarHireProjectTests-Info.plist */,
+				64C60E869311D237AD443D0620EEE350 /* Pods-CarHireProjectTests-umbrella.h */,
+				8B34FD5E4D0C5836BCF0140B9A6D48B5 /* Pods-CarHireProjectTests.debug.xcconfig */,
+				8BA129DAE45D173B9BD294E83BAA1E18 /* Pods-CarHireProjectTests.release.xcconfig */,
+			);
+			name = "Pods-CarHireProjectTests";
+			path = "Target Support Files/Pods-CarHireProjectTests";
+			sourceTree = "<group>";
+		};
+		F902475990BC69B7941821A569051578 /* Pods-CarHireProject */ = {
+			isa = PBXGroup;
+			children = (
+				554D9256BFF72C3E4317356CA2501526 /* Pods-CarHireProject.modulemap */,
+				CB2625628A835B4AF9E332AD3D5C629A /* Pods-CarHireProject-acknowledgements.markdown */,
+				FE5026384A12F27732442195A90D26AA /* Pods-CarHireProject-acknowledgements.plist */,
+				C0590242662EFB39B98411230020DC8B /* Pods-CarHireProject-dummy.m */,
+				B6AFFC4CEC51A2007A257EB2E7CB077A /* Pods-CarHireProject-Info.plist */,
+				F7FB76DEF560DAD3B1DD98DFE34E4F30 /* Pods-CarHireProject-umbrella.h */,
+				3EF81837BDED88C3B8576F6C74963D7D /* Pods-CarHireProject.debug.xcconfig */,
+				9550B57C99666B6BBD2A0F46B9CAEFAC /* Pods-CarHireProject.release.xcconfig */,
+			);
+			name = "Pods-CarHireProject";
+			path = "Target Support Files/Pods-CarHireProject";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CD03EB78C6A9FBFBFEB67D697F7A636 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C58922D595CEFE88B4EB1022C5AADC /* Pods-CarHireProject-CarHireProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4114E9A86D27EAA6937C80EF26424FB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38DBF6E08B26A2E3F25811F4B9F9223 /* Pods-CarHireProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CE9C14AAA7987450ED01E1013AC95E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07A7E1D71D68CFF3E4939C748A8EDFF /* Pods-CarHireProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20B35DFF7679CFC6CC466D26AB6884C8 /* Pods-CarHireProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA67921E3CC72442C8AACE52BBE12B48 /* Build configuration list for PBXNativeTarget "Pods-CarHireProjectTests" */;
+			buildPhases = (
+				4114E9A86D27EAA6937C80EF26424FB7 /* Headers */,
+				FDBD052382F5A1FC4B642625D687E3E3 /* Sources */,
+				21BAF7547BFF34CEAB6C272A66990691 /* Frameworks */,
+				1F463A921B17F8B9F7E5DD5A1D5D1B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CEE4AC398A15DADD99B1DDFB9F7680C /* PBXTargetDependency */,
+			);
+			name = "Pods-CarHireProjectTests";
+			productName = Pods_CarHireProjectTests;
+			productReference = 69FC0B97FC3A9864AD3303B0DAEC4BBA /* Pods-CarHireProjectTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EFD935CFE0E39C2DDEEEA74B51A5BE6 /* Pods-CarHireProject-CarHireProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC6EAE40963FEA93207FA2C31260E81 /* Build configuration list for PBXNativeTarget "Pods-CarHireProject-CarHireProjectUITests" */;
+			buildPhases = (
+				3CD03EB78C6A9FBFBFEB67D697F7A636 /* Headers */,
+				3EF4E8EBB06126D391F9662F4621163C /* Sources */,
+				AD8953A83117DA9E3BC0F9ED3AA224CE /* Frameworks */,
+				A88E53C422D0AA4E59DB2B5A9E061D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarHireProject-CarHireProjectUITests";
+			productName = Pods_CarHireProject_CarHireProjectUITests;
+			productReference = 0B20E0E6726FD182D9B7F380D6BA0D3B /* Pods-CarHireProject-CarHireProjectUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		78E9D2722A069D6FB0AF65D185845FA8 /* Pods-CarHireProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AFB1B90254CEE79384295E6D1AB594 /* Build configuration list for PBXNativeTarget "Pods-CarHireProject" */;
+			buildPhases = (
+				66CE9C14AAA7987450ED01E1013AC95E /* Headers */,
+				C129D0A87AB3961CC1CB24F1EE9584EC /* Sources */,
+				26776A1F1F15C63DF8E38D8AC981E819 /* Frameworks */,
+				47ABC652435AC3B04F58128749DE2C51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CarHireProject";
+			productName = Pods_CarHireProject;
+			productReference = C25D58DAB967BCEEB130B6571772932F /* Pods-CarHireProject */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BF445BB38717F8D7ADE00712626A6025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78E9D2722A069D6FB0AF65D185845FA8 /* Pods-CarHireProject */,
+				5EFD935CFE0E39C2DDEEEA74B51A5BE6 /* Pods-CarHireProject-CarHireProjectUITests */,
+				20B35DFF7679CFC6CC466D26AB6884C8 /* Pods-CarHireProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F463A921B17F8B9F7E5DD5A1D5D1B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47ABC652435AC3B04F58128749DE2C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88E53C422D0AA4E59DB2B5A9E061D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF4E8EBB06126D391F9662F4621163C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159FCE46648386AD9C5AEEE7EC0EBEB2 /* Pods-CarHireProject-CarHireProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C129D0A87AB3961CC1CB24F1EE9584EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9733ABD7DDAE9836C5A3BA5633CDE124 /* Pods-CarHireProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBD052382F5A1FC4B642625D687E3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3612BCEEE177D028C1B79B7336D84DFC /* Pods-CarHireProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CEE4AC398A15DADD99B1DDFB9F7680C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CarHireProject";
+			target = 78E9D2722A069D6FB0AF65D185845FA8 /* Pods-CarHireProject */;
+			targetProxy = 5571BEC3BDCB74FAD86B513D3E259AC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		005A92DCBCFF7122F2A3F55543618E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138A7550EF8A10AA67A7E28748C9F909 /* Pods-CarHireProject-CarHireProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarHireProject-CarHireProjectUITests/Pods-CarHireProject-CarHireProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarHireProject-CarHireProjectUITests/Pods-CarHireProject-CarHireProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0E1E5F361D6CE1869A248AA4EB26AC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF81837BDED88C3B8576F6C74963D7D /* Pods-CarHireProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarHireProject/Pods-CarHireProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarHireProject/Pods-CarHireProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31B02852978A6C6801639824A4657A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA129DAE45D173B9BD294E83BAA1E18 /* Pods-CarHireProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarHireProjectTests/Pods-CarHireProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarHireProjectTests/Pods-CarHireProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97DD0BDC742C713D390F8FA28AF07133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083E5A4D76C5D24750B0A476C6625CBC /* Pods-CarHireProject-CarHireProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarHireProject-CarHireProjectUITests/Pods-CarHireProject-CarHireProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarHireProject-CarHireProjectUITests/Pods-CarHireProject-CarHireProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF8F185A02016E76E0E52B4A18207342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9550B57C99666B6BBD2A0F46B9CAEFAC /* Pods-CarHireProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarHireProject/Pods-CarHireProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarHireProject/Pods-CarHireProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4034FAF1BDE24E8DBF5598827C1A2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B34FD5E4D0C5836BCF0140B9A6D48B5 /* Pods-CarHireProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CarHireProjectTests/Pods-CarHireProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CarHireProjectTests/Pods-CarHireProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC6EAE40963FEA93207FA2C31260E81 /* Build configuration list for PBXNativeTarget "Pods-CarHireProject-CarHireProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97DD0BDC742C713D390F8FA28AF07133 /* Debug */,
+				005A92DCBCFF7122F2A3F55543618E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934ED2B84836A780113D1F63484628B2 /* Debug */,
+				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA67921E3CC72442C8AACE52BBE12B48 /* Build configuration list for PBXNativeTarget "Pods-CarHireProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4034FAF1BDE24E8DBF5598827C1A2A5 /* Debug */,
+				31B02852978A6C6801639824A4657A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AFB1B90254CEE79384295E6D1AB594 /* Build configuration list for PBXNativeTarget "Pods-CarHireProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1E5F361D6CE1869A248AA4EB26AC4A /* Debug */,
+				AF8F185A02016E76E0E52B4A18207342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
